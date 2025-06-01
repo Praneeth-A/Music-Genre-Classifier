@@ -69,7 +69,7 @@ ensemble_test_acc, ensemble_train_acc = evaluate_model(
 
 plt.figure(figsize=(12, 7))
 
-models = ['KNN', 'Decision Tree', 'SVM', 'Ensemble']
+models = [ 'SVM','Decision Tree', 'KNN', 'Ensemble']
 train_accuracies = [svm_train_acc, dt_train_acc, knn_train_acc, ensemble_train_acc]
 test_accuracies = [svm_test_acc, dt_test_acc, knn_test_acc, ensemble_test_acc]
 
